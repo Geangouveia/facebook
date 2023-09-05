@@ -1,0 +1,169 @@
+.Central{
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+  
+}
+.Position{
+  width: 80%;
+  height: 93%;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  left: 10%;
+  top: 7%;
+  
+}
+.PaginaCentral{
+  height: 85%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  left: 2.5%;
+  display: flex;
+  min-width: 1633px;
+}
+.Entrada{
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+  width: 50%;
+  left: 50%;
+}
+.Conteudo{
+  height: 100%;
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+  
+}
+.PositionSaudacao{
+  padding-top: 10%;
+  padding-left: 22%;
+  font-family: inherit;
+}
+h1{
+  color: rgb(52, 115, 231);
+  font-size: 65px;
+  
+}
+p{
+  font-size: 27px;
+  bottom: 18px;
+  position: relative;
+}
+
+.PagLogin{
+  width: 60%;
+  height: 52%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  position: relative;
+  top: 13%;
+  left: 3%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  
+  
+}
+.BotaoEntrada{
+  position: absolute;
+  background-color: rgb(52, 115, 231);
+  border: none;
+  width: 88%;
+  height: 47px;
+  border-radius: 5px;
+  color: aliceblue;
+  font-weight: bold;
+  left: 5%;
+  font-size: 20px;
+  bottom: 45%;
+}
+.a1{
+  font-size: 15px;
+  left: 35%;
+  position: absolute;
+  bottom: 33%;
+  text-decoration: none;
+  color: blue;
+}
+
+.BotaoCriar{
+  position: absolute;
+  background-color: rgb(4, 190, 97);
+  border: none;
+  width: 45%;
+  height: 47px;
+  border-radius: 5px;
+  color: aliceblue;
+  font-weight: bold;
+  left: 27.5%;
+  font-size: 20px;
+  bottom: 30px;
+}
+hr{
+  position: absolute;
+  width: 90%;
+  bottom: 100px;
+  left: 5%;
+}
+.Botoes{
+  padding-top: 30%;
+  
+}
+.SenhaEmail{
+  position: relative;
+  width: 84%;
+  height: 47px;
+  border-radius: 5px;
+  top: 25px;
+  left: 5%;
+  font-size: 19px;
+  border: none;
+  box-shadow: 0 0 13px rgba(0, 0, 0, 0.3);
+  padding-left: 20px;
+}
+.a2{
+  position: relative;
+  top: 125px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+.CriarPag{
+  font-size: 15px;
+  position: relative;
+  top: 90px;
+  left: 128px;
+}
+@media (max-width: 1668px) {
+  .Position{
+    left: 0%;
+  }
+    
+  }
+
+@media (max-width: 1440px){
+  .Conteudo{
+    height: 90%;
+  }
+  
+  .PaginaCentral{
+    display: grid;
+  }
+  .PagLogin{
+    position: relative;
+    height: 100%;
+    left: 20%;
+    
+  }
+  .BotaoEntrada{
+    height: 38px;
+
+  }
+  .BotaoCriar{
+    height: 38PX;
+  }
+  .SenhaEmail{
+    height: 38px;
+    font-size: 16px;
+  }
+  hr{
+    bottom: 85px;
+  }
+}
